@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TRAVEL.IN</title>
+	<style>
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.bg{
+			position:relative;
+			background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("bg.jpg"); 
+			background-size: cover;
+			justify-content: center;
+			height: 100vh;
+		}
+		
+		.navi{
+			float: right;
+			list-style:none;
+			margin-top:20px;
+
+				
+
+			
+		}
+		.navi li {
+
+
+			
+			display: inline-block;
+			
+		}
+		.navi li a{
+
+            letter-spacing: 2px;
+			font-family: arial;
+			color: lightgrey;
+			text-decoration: none;
+			padding: 5px 20px;
+			border:5px solid transparent ;
+			transition:0.6s ease;
+		}
+		.navi li a:hover{
+
+	background-color:#fff; 
+	color:#000;
+}
+
+
+
+.card{
+	position: absolute;
+	margin-top:10%;
+	margin-left:10%; 
+	display:grid;
+	grid-template-columns:300px;
+	grid-template-rows:220px 220px  ;
+	grid-template-areas:"image" "text" ; 
+	border-radius:10px;
+	
+	box-shadow:5px 5px 15px rgba(0,0,0,0.9); 
+	
+	
+	
+}
+
+.card:hover{
+	transition: 0.5s ease;
+	cursor: pointer;
+	transform: scale(1.1);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+.card-image{
+
+	
+	background-image: url("bgover.png");
+    border-top-right-radius: 8px;
+    border-top-left-radius:8px;
+	background-size: cover;
+	
+
+} 
+
+.card-text{
+	
+    background-color:#FF000;
+	
+	border-bottom-right-radius: 8px;
+    border-bottom-left-radius:8px;
+}
+.card-text p{
+
+	position: absolute;
+	font-family: arial;
+	letter-spacing: 5px;
+    
+    margin-left: 28%;
+    margin-top: 52%;
+}
+.card-text p a{
+    
+	text-decoration: none;
+	color:#011;
+
+}
+.card-text a{
+	position: absolute;
+	margin-top: 10%;
+	margin-left:30% 
+}
+
+
+
+.cardi{
+	position: absolute;
+	margin-top:10%;
+	margin-left:40%; 
+	display:grid;
+	grid-template-columns:300px;
+	grid-template-rows:220px 220px  ;
+	grid-template-areas:"image" "text" ; 
+	border-radius:10px;
+	
+	box-shadow:5px 5px 15px rgba(0,0,0,0.9); 
+	
+	
+	
+}
+
+.cardi:hover{
+	transition: 0.5s ease;
+	cursor: pointer;
+	transform: scale(1.1);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+.cardi-image{
+
+	
+	background-image: url("bgover.png");
+    border-top-right-radius: 8px;
+    border-top-left-radius:8px;
+	background-size: cover;
+	
+
+} 
+
+.cardi-text{
+	
+    background-color:#FF000;
+	
+	border-bottom-right-radius: 8px;
+    border-bottom-left-radius:8px;
+}
+.cardi-text p{
+
+	position: absolute;
+	font-family: arial;
+	letter-spacing: 5px;
+    
+    margin-left: 28%;
+    margin-top: 52%;
+}
+.cardi-text p a{
+    
+	text-decoration: none;
+	color:#011;
+
+}
+.cardi-text img{
+	position: absolute;
+	margin-top: 15%;
+	margin-left:38% 
+}
+
+.cardy{
+	position: absolute;
+	margin-top:10%;
+	margin-left:70%; 
+	display:grid;
+	grid-template-columns:300px;
+	grid-template-rows:220px 220px  ;
+	grid-template-areas:"image" "text" ; 
+	border-radius:10px;
+	
+	box-shadow:5px 5px 15px rgba(0,0,0,0.9); 
+	
+	
+	
+}
+
+.cardy:hover{
+	transition: 0.5s ease;
+	cursor: pointer;
+	transform: scale(1.1);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+.cardy-image{
+
+	
+	background-image: url("bgover.png");
+    border-top-right-radius: 8px;
+    border-top-left-radius:8px;
+	background-size: cover;
+	
+
+} 
+
+.cardy-text{
+	
+    background-color:#FF000;
+	
+	border-bottom-right-radius: 8px;
+    border-bottom-left-radius:8px;
+}
+.cardy-text p{
+
+	position: absolute;
+	font-family: arial;
+	letter-spacing: 5px;
+    
+    margin-left: 28%;
+    margin-top: 52%;
+}
+.cardy-text p a{
+    
+	text-decoration: none;
+	color:#011;
+
+}
+.cardy-text img{
+	position: absolute;
+	margin-top: 12%;
+	margin-left:22% 
+}
+
+
+
+
+	</style>
+</head>
+<body>
+	
+	
+		<div class="bg">
+			<div class="navi">
+		<li><a href="index.html">HOME</a></li>
+		
+	</div>
+	<div class="card">
+		<div class="card-image"></div>
+		<div class="card-text">
+			<a href="#"><img src="fb.png" width="100px" height="100px" ></a>
+		<p ><a href="#">FACEBOOK</a></p> 
+		</div>
+
+	</div>
+
+
+	
+<div class="cardi">
+		<div class="cardi-image"></div>
+		<div class="cardi-text">
+			<a href="#"><img src="insta.png" width="70px" height="70px"></a>
+		<p ><a href="#">INSTAGRAM</a></p>
+		</div> 
+	</div>
+
+
+
+
+	<div class="cardy">
+		<div class="cardy-image"></div>
+		<div class="cardy-text">
+			<a href="#"><img src="yt.png" width="150" height="120"></a>
+		<p ><a href="#">YOUTUBE</a></p>
+		</div> 
+	</div>
+
+
+</div>
+
+
+	
+	
+	
+		
+		
+	
+
+</body>
+</html>
